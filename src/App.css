@@ -1,0 +1,65 @@
+@font-face {
+  font-family:'Gabarito' ;
+  src: url(Gabarito/Gabarito-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'Gabarito' ;
+  src: url(Gabarito/static/Gabarito-Bold.ttf) format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+
+.nav{
+background-color: #212121;
+list-style: none;
+font-family: 'Gabarito';
+position: relative;
+box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+
+}
+.menu{
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  justify-content:end;
+  padding: 40px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #f4b406;
+  padding: 35px 5px;
+  margin: 20px;
+}
+
+#home{
+  color: black;
+  border-radius: 75px;
+  background: #f4b406;
+  box-shadow:  8px 8px 8px #b78705,-8px -8px 24px #ffe108;
+  padding: 40px;
+  margin-left: 30px;
+
+}
+@media (max-width: 400px) {
+  .navigation-menu {
+    flex-direction: column; 
+  }
+}s
+
+#contact{
+  border-radius: 0%  solid;
+ 
+ 
+}
+

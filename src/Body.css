@@ -1,0 +1,69 @@
+@font-face {
+    font-family:'Gabarito' ;
+    src: url(Gabarito/Gabarito-VariableFont_wght.ttf) format('truetype');
+  }
+
+
+*{
+    background-color: #212121;
+}
+
+.sanIMG{
+    width: 600px;
+    
+    max-width: 100%;
+    height: 600px;
+    order: 2;
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+h1{
+    color: #f4b406;
+    order: 1;
+    font-size: 40px;
+    padding: 200px;
+    font-family: 'Gabarito';
+}
+p{
+    color: #f0f2f5;
+    font-size: 20px;
+    font-family: 'Gabarito'; 
+    
+    }
+
+.download{
+    background-color: #f4b406;
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 100px; 
+    cursor: pointer;
+    font-family: 'Gabarito';
+   
+}
+.HireMe{
+    
+    border: solid;
+    border-radius: 100px;
+    height: 3rem;
+    width: 6rem;
+    margin: 30px;
+    border-color: #f4b406;
+    color: white;
+    font-size: medium;
+    font-family: 'Gabarito';
+    cursor:pointer
+
+}
+.fri{
+    color: #f0f2f5;
+    font-family: 'Gabarito';
+}
+      
+      
+      
